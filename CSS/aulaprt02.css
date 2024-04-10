@@ -1,0 +1,15 @@
+body {
+    background-color: #8C1F28;
+}
+h1 {
+    text-align: center;
+    text-shadow: -4px -3px 4px #F27405;
+    color: #ffff;
+}
+
+p {
+    color: #ffff;
+    text-align: justify;
+    line-height: 150%;
+    font-style: italic;
+}

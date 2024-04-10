@@ -1,0 +1,14 @@
+body {
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    background-color: #8C1F28;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 20px;
+}

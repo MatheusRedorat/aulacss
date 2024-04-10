@@ -1,0 +1,29 @@
+h1 {
+    background-color: #103778;
+    color: #ffff;
+    text-shadow: -4px -4px 3px #cf9bcc;
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    background-color: #cf9bcc;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+ul {
+    font-weight: bold;
+}
+
+footer {
+    color: black;
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}

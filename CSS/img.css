@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/rua.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+    
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    height: 300px;
+}
