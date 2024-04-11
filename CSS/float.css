@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid ;
+    overflow: auto;
+    padding: 5px;
+}
+
+.container img {
+    float: left;
+}

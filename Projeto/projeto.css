@@ -8,15 +8,95 @@ body {
 }
 
 .cabeça a {
+    font-size: 1.5em;
     padding: 15px;
     text-decoration: none;
 }
 
 .paragrafo {
+    font-style: italic;
     font-size: 20px;
-    text-align: left;
+    float: left;
+}
+
+.paragrafo-2 {
+    font-style: italic;
+    font-size: 20px;
+    float: left;
 }
 
 .foto {
     text-align: center;
+}
+
+.base-sobre {
+    float: left;
+    overflow: auto;
+    padding: 5px;
+}
+
+.base-sobre img {
+    float: left;
+    padding: 1em;
+}
+
+.h1-sobre {
+    float: left;
+    padding: 5px;
+}
+
+.p-1 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.p-2 {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.p-sobre {
+    font-style: italic;
+    float: left;
+    font-size: 20px;
+}
+
+.h1-objetivo {
+    float: left;
+    padding: 5px;
+}
+
+.lista {
+    font-style: italic;
+    float: left;
+    font-size: 20px;
+}
+
+.desenvolvimento img {
+    float: left;
+    padding: 1em;
+}
+
+.p-desevolvimento {
+    font-style: italic;
+    font-size: 20px;
+    padding: 2em;
+}
+
+.p-desevolvimento-2 {
+    font-style: italic;
+    font-size: 20px;
+    padding: 2em;
+}
+
+.p-proposta {
+    font-style: italic;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.p-estrutura {
+    font-size: 20px;
+    font-style: italic;
+    padding: 1em;
 }
