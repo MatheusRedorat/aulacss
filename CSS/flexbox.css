@@ -1,0 +1,43 @@
+.container {
+    height: 600px;
+    width: 600px;
+    background-color: tomato;
+    border: 2px solid green; 
+    display: flex;
+    /* flex-direction configura a direção dos itens flexíveis */
+    flex-direction: row;
+    /* direction altera a direção do itens */
+    direction: ltr;
+    /* flex-wrap: wrap; quebra a linha */
+    flex-wrap: wrap;
+    /* flex-flow: Essa é uma abreviação das propriedades flex-direction e flex-wrap */
+    /* justify-content: alinhamento horizontal */
+    justify-content: right;
+    /* align-items: alinhamento vertical */
+    align-items: center;
+}
+ 
+.box {
+    background-color: salmon;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    color: white;
+    font-size: 2em;
+}
+
+.box1 {
+    order: 3;
+    background-color: aquamarine;
+}
+
+.box2 {
+    order: 2;
+    background-color: blue;
+}
+
+.box3 {
+    order: 1;
+    background-color: blueviolet;
+}
