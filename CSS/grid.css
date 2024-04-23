@@ -1,0 +1,41 @@
+.container {
+    height: 50vh;
+    font-size: 1.5em;
+    display: grid;
+    /* grid-template-columns: 25% 50% 25%; */
+    /* grid-template-rows: 30% 30% 30% 10%; */
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 5px;
+    grid-template-areas:
+        "header header header"
+        "aside main main"
+        "aside main main"
+        "aside main main"
+        "footer footer footer"
+        ;
+}
+
+.box1 {
+    border: 5px solid;
+    background-color: aqua;
+    grid-area: header;
+}
+
+.box2 {
+    border: 5px solid;
+    background-color: blueviolet;
+    grid-area: aside;
+}
+
+.box3 {
+    border: 5px solid;
+    background-color: yellowgreen;
+    grid-area: main;
+}
+
+.box4 {
+    border: 5px solid;
+    background-color: thistle;
+    grid-area: footer;
+}
